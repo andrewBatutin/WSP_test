@@ -1,17 +1,15 @@
 //
-//  DummyWork.m
-//  C
+//  Check.m
+//  D
 //
 //  Created by Andrey Batutin on 5/4/17.
 //  Copyright © 2017 Andrey Batutin. All rights reserved.
 //
 
-#import "DummyWork.h"
+#import "Check.h"
 
-@implementation DummyWork
-
+@implementation Check
 + (NSString*)mock{
-    return @"mock C";
+    return @"mock D";
 }
-
 @end

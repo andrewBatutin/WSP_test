@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import <C/C.h>
+#import <D/D.h>
 
 @interface AppDelegate ()
 
@@ -19,6 +20,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     NSLog(@"test %@", [DummyWork mock]);
+    NSLog(@"test %@", [Check mock]);
     return YES;
 }
 
