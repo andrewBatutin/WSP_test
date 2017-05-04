@@ -11,6 +11,11 @@
 @implementation DummyWork
 
 + (NSString*)mock{
+#ifdef DEBUG
+    NSLog(@"Debug mode");
+#else
+    NSLog(@"Release mode");
+#endif
     return @"mock C";
 }
 

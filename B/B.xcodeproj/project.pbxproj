@@ -13,21 +13,21 @@
 		A45925C81EBB274C00BCA827 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A45925C61EBB274C00BCA827 /* Main.storyboard */; };
 		A45925CA1EBB274C00BCA827 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A45925C91EBB274C00BCA827 /* Assets.xcassets */; };
 		A45925CD1EBB274C00BCA827 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A45925CB1EBB274C00BCA827 /* LaunchScreen.storyboard */; };
-		A4D22FF81EBB31A7009B8EB4 /* C.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45926151EBB2B0F00BCA827 /* C.framework */; };
-		A4D22FF91EBB31A7009B8EB4 /* C.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A45926151EBB2B0F00BCA827 /* C.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A4D22FFC1EBB31AB009B8EB4 /* D.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4D22FFB1EBB31AB009B8EB4 /* D.framework */; };
-		A4D22FFD1EBB31AB009B8EB4 /* D.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A4D22FFB1EBB31AB009B8EB4 /* D.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A4B6835A1EBB3E6500AA4BDA /* C.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B683591EBB3E6500AA4BDA /* C.framework */; };
+		A4B6835B1EBB3E6500AA4BDA /* C.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A4B683591EBB3E6500AA4BDA /* C.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A4B6835D1EBB3E6500AA4BDA /* D.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B6835C1EBB3E6500AA4BDA /* D.framework */; };
+		A4B6835E1EBB3E6500AA4BDA /* D.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A4B6835C1EBB3E6500AA4BDA /* D.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		A4D22FFA1EBB31A8009B8EB4 /* Embed Frameworks */ = {
+		A4B6835F1EBB3E6500AA4BDA /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A4D22FF91EBB31A7009B8EB4 /* C.framework in Embed Frameworks */,
-				A4D22FFD1EBB31AB009B8EB4 /* D.framework in Embed Frameworks */,
+				A4B6835B1EBB3E6500AA4BDA /* C.framework in Embed Frameworks */,
+				A4B6835E1EBB3E6500AA4BDA /* D.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -45,8 +45,8 @@
 		A45925C91EBB274C00BCA827 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A45925CC1EBB274C00BCA827 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A45925CE1EBB274C00BCA827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A45926151EBB2B0F00BCA827 /* C.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = C.framework; path = "/Users/abatutin/Library/Developer/Xcode/DerivedData/A1-ajufyuietrvvlvfbiqvvzduefrnd/Build/Products/Debug-iphonesimulator/C.framework"; sourceTree = "<absolute>"; };
-		A4D22FFB1EBB31AB009B8EB4 /* D.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = D.framework; path = "/Users/abatutin/Library/Developer/Xcode/DerivedData/A1-ajufyuietrvvlvfbiqvvzduefrnd/Build/Products/Debug-iphonesimulator/D.framework"; sourceTree = "<absolute>"; };
+		A4B683591EBB3E6500AA4BDA /* C.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework;  path = C.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4B6835C1EBB3E6500AA4BDA /* D.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework;  path = D.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +54,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4D22FF81EBB31A7009B8EB4 /* C.framework in Frameworks */,
-				A4D22FFC1EBB31AB009B8EB4 /* D.framework in Frameworks */,
+				A4B6835A1EBB3E6500AA4BDA /* C.framework in Frameworks */,
+				A4B6835D1EBB3E6500AA4BDA /* D.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,8 +65,8 @@
 		A45925B11EBB274B00BCA827 = {
 			isa = PBXGroup;
 			children = (
-				A4D22FFB1EBB31AB009B8EB4 /* D.framework */,
-				A45926151EBB2B0F00BCA827 /* C.framework */,
+				A4B6835C1EBB3E6500AA4BDA /* D.framework */,
+				A4B683591EBB3E6500AA4BDA /* C.framework */,
 				A45925BC1EBB274C00BCA827 /* B */,
 				A45925BB1EBB274B00BCA827 /* Products */,
 			);
@@ -114,7 +114,7 @@
 				A45925B61EBB274B00BCA827 /* Sources */,
 				A45925B71EBB274B00BCA827 /* Frameworks */,
 				A45925B81EBB274B00BCA827 /* Resources */,
-				A4D22FFA1EBB31A8009B8EB4 /* Embed Frameworks */,
+				A4B6835F1EBB3E6500AA4BDA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,6 +136,7 @@
 				TargetAttributes = {
 					A45925B91EBB274B00BCA827 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = JZHM2Q974G;
 					};
 				};
 			};
@@ -289,6 +290,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/../C",
 					"$(PROJECT_DIR)/../D",
@@ -304,6 +306,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/../C",
 					"$(PROJECT_DIR)/../D",
